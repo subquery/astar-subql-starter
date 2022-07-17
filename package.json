@@ -4,7 +4,7 @@
   "description": "This SubQuery project can be use as a starting point for Astar network",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -b",
+    "build": "subql build",
     "prepack": "rm -rf dist && npm build",
     "test": "jest",
     "codegen": "./node_modules/.bin/subql codegen"
@@ -19,7 +19,7 @@
   "author": "Ian He & Jay Ji",
   "license": "MIT",
   "devDependencies": {
-    "@polkadot/api": "^7",
+    "@polkadot/api": "^8",
     "@subql/types": "latest",
     "typescript": "^4.1.3",
     "@subql/cli": "latest"
